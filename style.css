@@ -1,0 +1,221 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-image: url("https://img.freepik.com/premium-vector/cool-blue-geometric-background-new-texture-style_213861-1179.jpg");
+  margin: 0px;
+  font-family: Ebrima, Times, serif;
+}
+
+#order-form {
+  width: 100vw;
+  height: 100vh;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.faq{
+  margin-top: 20px;
+  background-color: white;
+  width: vw;
+}
+
+.logo {
+  font-family: "Ink Free", Times, serif;
+  font-size: 2rem; 
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+}
+
+#logo-text {
+  padding-left: 10px;
+}
+
+#logo-img{
+  width: 40px;
+  height: 40px;
+  margin: 0px 0px 0px 20px;
+  padding: 0px 0px 0px 0px;
+}
+
+.form {
+  width: 50%;
+  background-color: white;
+  position: relative;
+  height: 100%;
+  left: 25%;
+}
+
+.form-end{
+  height: 100px;
+}
+
+#gradient{
+  background-image: linear-gradient( 180deg, white, lightgray);
+  height: 75px;
+  width: 50%;
+  position: fixed;
+  left: 25%;
+  bottom: 0;
+}
+
+.form-margin{
+  padding: 20px 20px 20px 20px;
+}
+
+.contact {
+  width: 100%;
+  background-color: white;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  margin: 0px 0px 0px 0px;
+}
+
+.contact-space {
+  padding-left: 50px;
+}
+
+.page-end {
+  height: 20px;
+}
+.all-products {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+#product {
+  width: 250px;
+  height: 250px;
+  margin-top: 20px;
+  margin-left: 23px;
+  border: solid;
+  border-color: #e5e8ea;
+}
+
+#product-border {
+  width: 300px;
+  height: 360px;
+  background-color: white;
+  margin-bottom: 60px;
+}
+
+#product-extra {
+  width: 300px;
+  height: 360px;
+  margin-bottom: 60px;
+}
+
+.items-title {
+  background-color: white;
+  text-align: center;
+  font-size: 30px;
+  width: 50%;
+  font-family: Tahoma, Times, serif;
+  color: #566374;
+}
+
+.product-name {
+  padding: 5px 0px 0px 20px;
+  margin-top: 0px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #565656;
+  margin-bottom: 0px;
+}
+
+.product-price-one {
+  padding: 0px 0px 0px 23px;
+  margin-top: 0px;
+  font-size: 15px;
+  color: #777777;
+}
+
+.product-price-two {
+  margin-left: 50px;
+}
+
+.line {
+  width: 250px;
+  color: #777777;
+  margin-bottom: 2px;
+  margin-top: 2px;
+}
+
+.product-pic-one{
+  position: absolute;
+}
+
+.product-pic-two{
+  position: relative;
+}
+
+.product-pic-two:hover {
+  animation: leave 0.1s forwards;
+}
+
+@keyframes leave {
+  from { visibility: visible; }
+  to { visibility: hidden; }
+}
+
+#navlist {
+  background-color: white;
+  overflow: hidden;
+  padding: 10px 0px 10px 0px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100vw;
+  align-items: center;
+}
+.header-pages {
+  background-color: white;
+  overflow: hidden;
+  padding: 10px 0px 10px 0px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 80vw;
+  align-items: center;
+  justify-content: space-evenly;
+  
+}
+  
+#navlist a {
+  color: black;
+  padding: 10px 25px;
+  text-decoration: none;
+  text-align: center;
+  
+}
+
+#navlist a:hover {
+  background-color: #e5e8ea;
+}
+
+.content {
+  text-align: center;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  #navlist {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100vw;
+  }
+
+  #navlist a {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100vw;
+    text-align: left;
+    padding: 10px 20px;
+  }
+  .items-title {
+    width: 100%;
+}
