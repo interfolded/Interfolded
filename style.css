@@ -43,11 +43,12 @@ body {
 }
 
 .form {
-  width: 50%;
+  width: 90%;
+  width: 90vw;
   background-color: white;
   position: relative;
   height: 100%;
-  left: 25%;
+  left: 5%;
 }
 
 .form-end{
