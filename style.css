@@ -7,6 +7,7 @@ body {
   background-image: url("https://img.freepik.com/premium-vector/cool-blue-geometric-background-new-texture-style_213861-1179.jpg");
   margin: 0px;
   font-family: Ebrima, Times, serif;
+  width: 100%;
 }
 
 #order-form {
@@ -14,11 +15,11 @@ body {
   height: 100vh;
 }
 
-.bold{
+.bold {
   font-weight: bold;
 }
 
-.faq{
+.faq {
   margin-top: 20px;
   background-color: white;
   width: vw;
@@ -26,46 +27,121 @@ body {
 
 .logo {
   font-family: "Ink Free", Times, serif;
-  font-size: 2rem; 
+  font-size: 2rem;
   padding: 0px 0px 0px 0px;
   margin: 0px 0px 0px 0px;
+}
+
+.logo-two {
+  font-family: "Ink Free", Times, serif;
+  font-size: 3rem;
+  padding: 0px 0px 10px 0px;
+  margin: 0px 0px 0px 0px;
+
+}
+
+.crane-icon {
+  width: 60px;
+  height: 60px;
+}
+
+.welcome {
+  font-size: 1.5rem;
+}
+
+.announcement {
+  font-size: 3rem;
+  color: #dadada;
+  font-family: "MV Boli", Times, serif;
+  justify-content: center;
+}
+
+.launch-one {
+  font-size: 3rem;
+  color: #dadada;
+  font-family: "MV Boli", Times, serif;
+  justify-content: center;
+  padding-right: 25px;
+}
+
+.launch-two {
+  font-size: 3rem;
+  color: #dadada;
+  font-family: "MV Boli", Times, serif;
+  justify-content: center;
+}
+
+.announce {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10px;
+  padding-top: 50px;
+}
+
+.launch {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+  background-color: black;
+  border-style: solid;
+  border-color: #91723C;
+  border-width: 10px;
 }
 
 #logo-text {
   padding-left: 10px;
 }
 
-#logo-img{
+#logo-img {
   width: 40px;
   height: 40px;
   margin: 0px 0px 0px 20px;
   padding: 0px 0px 0px 0px;
 }
 
+#logo-img-two {
+  width: 60px;
+  height: 60px;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+
+.logo-box {
+  overflow: hidden;
+  padding: 10px 0px 10px 0px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  align-items: center;
+}
+
 .form {
   width: 90%;
   width: 90vw;
+  left: 5%;
   background-color: white;
   position: relative;
   height: 100%;
-  left: 5%;
+
+
 }
 
-.form-end{
+.form-end {
   height: 100px;
 }
 
-#gradient{
-  background-image: linear-gradient( 180deg, white, lightgray);
-  height: 75px;
+#gradient {
+  background-image: linear-gradient(180deg, transparent, lightgray);
+  height: 90px;
   width: 90vw;
   position: fixed;
   left: 5%;
   bottom: 0;
 }
 
-.form-margin{
-  padding: 20px 20px 20px 20px;
+.form-margin {
+  padding: 20px 30px 30px 30px;
 }
 
 .contact {
@@ -85,11 +161,13 @@ body {
 .page-end {
   height: 20px;
 }
+
 .all-products {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
 }
+
 #product {
   width: 250px;
   height: 250px;
@@ -148,11 +226,11 @@ body {
   margin-top: 2px;
 }
 
-.product-pic-one{
+.product-pic-one {
   position: absolute;
 }
 
-.product-pic-two{
+.product-pic-two {
   position: relative;
 }
 
@@ -161,8 +239,19 @@ body {
 }
 
 @keyframes leave {
-  from { visibility: visible; }
-  to { visibility: hidden; }
+  from {
+    visibility: visible;
+  }
+
+  to {
+    visibility: hidden;
+  }
+}
+
+.logo-together {
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 #navlist {
@@ -174,6 +263,7 @@ body {
   width: 100vw;
   align-items: center;
 }
+
 .header-pages {
   background-color: white;
   overflow: hidden;
@@ -183,15 +273,15 @@ body {
   width: 80vw;
   align-items: center;
   justify-content: space-evenly;
-  
+
 }
-  
+
 #navlist a {
   color: black;
   padding: 10px 25px;
   text-decoration: none;
   text-align: center;
-  
+
 }
 
 #navlist a:hover {
@@ -207,16 +297,47 @@ body {
   #navlist {
     flex-direction: column;
     align-items: flex-start;
-    width: 100vw;
+    width: 100%;
   }
 
   #navlist a {
     flex-direction: column;
     align-items: flex-start;
-    width: 100vw;
+    width: 100%;
     text-align: left;
     padding: 10px 20px;
   }
+
   .items-title {
     width: 100%;
+  }
 }
+
+
+@media screen and (max-width: 700px) {
+  .launch-two {
+    font-size: 2rem;
+  }
+
+  .launch-one {
+    font-size: 2rem;
+    padding-right: 0px;
+  }
+
+  .launch {
+    display: flex;
+    flex-direction: column;
+  }
+
+
+  @media screen and (max-width: 500px) {
+    .logo-two {
+      font-size: 2.5rem;
+    }
+  }
+
+  @media screen and (max-width: 10000px) {
+    .crane-icon {
+      visibility: hidden;
+    }
+  }
